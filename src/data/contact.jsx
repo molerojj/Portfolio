@@ -3,23 +3,23 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const redes = [{
   red: 'Instagram',
-  link: 'https://www.instagram.com/michael718s/',
+  link: 'https://www.instagram.com/jonathanmolero/',
   icon: <IoLogoInstagram />
 }, {
   red: 'Linkedin',
-  link: 'https://www.linkedin.com/in/michael-santucho-0a8876256',
+  link: 'https://www.linkedin.com/in/jonathan-molero/',
   icon: <AiFillLinkedin />
 }, {
   red: 'Git Hub',
-  link: 'https://github.com/MichaellDev1',
+  link: 'https://github.com/molerojj',
   icon: <AiFillGithub />
 }]
 
 const methodContact = [
   {
     method: 'email',
-    href: 'mailto:michaelsantuchodev@gmail.com',
-    title: 'michaelsantuchodev@gmail.com'
+    href: 'mailto:molerojj@gmail.com',
+    title: 'molerojj@gmail.com'
   }
 ]
 

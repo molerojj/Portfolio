@@ -3,15 +3,12 @@ import {
   DiCss3,
   DiHtml5,
   DiReact,
-  DiSass,
-  DiNodejsSmall,
-  DiMongodb
+  DiNodejsSmall
 } from 'react-icons/di'
-import { SiTailwindcss, SiBootstrap, SiFirebase, SiRedux } from 'react-icons/si'
+import { SiTailwindcss, SiBootstrap, SiPostgresql, SiRedux } from 'react-icons/si'
 import { BsGit } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
-import { FiGitlab } from 'react-icons/fi'
-import { GrMysql } from 'react-icons/gr'
+import { TbBrandJavascript } from 'react-icons/tb'
 
 const skills = [
   {
@@ -29,25 +26,13 @@ const skills = [
   {
     skill: 'Javascript',
     color: '#d8ff00',
-    icon: <DiJavascript />,
-    inProcess: false
-  },
-  {
-    skill: 'Sass',
-    color: '#d900ff',
-    icon: <DiSass />,
+    icon: <TbBrandJavascript />,
     inProcess: false
   },
   {
     skill: 'Boostrap',
     color: '#9100ff',
     icon: <SiBootstrap />,
-    inProcess: false
-  },
-  {
-    skill: 'Taildwind',
-    color: '#25bdf7',
-    icon: <SiTailwindcss />,
     inProcess: false
   },
   {
@@ -69,21 +54,9 @@ const skills = [
     inProcess: false
   },
   {
-    skill: 'GitLab',
-    color: '#ff3b00',
-    icon: <FiGitlab />,
-    inProcess: false
-  },
-  {
     skill: 'GitHub',
     color: '#ffebeb',
     icon: <AiFillGithub />,
-    inProcess: false
-  },
-  {
-    skill: 'Firebase',
-    color: '#FFCC30',
-    icon: <SiFirebase />,
     inProcess: false
   },
   {
@@ -93,15 +66,9 @@ const skills = [
     inProcess: true
   },
   {
-    skill: 'Mongo Db',
-    color: '#04ff00',
-    icon: <DiMongodb />,
-    inProcess: true
-  },
-  {
-    skill: 'My Sql',
+    skill: 'PostgreSQL',
     color: '#005c83',
-    icon: <GrMysql />,
+    icon: <SiPostgresql />,
     inProcess: true
   }
 ]

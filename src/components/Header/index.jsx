@@ -6,6 +6,7 @@ import { navLink } from '../../data/nav'
 import { FiSun } from 'react-icons/fi'
 import Context from '../../Context/Themes'
 import './index.css'
+import imgPerfil from '../../Images/perfil-github.png'
 
 export default function Header () {
   const { Themes, setDarkMode, darkMode } = useContext(Context)
@@ -35,7 +36,7 @@ export default function Header () {
               style={{ border: `1px solid ${Themes.borderNav}`, backdropFilter: 'blur(15px)' }}
             >
               <div className='w-full h-full rounded-full'>
-                <img src='https://res.cloudinary.com/dfkvvcfxs/image/upload/v1682079730/logo_vorruv.png' alt='logo portfolio' className='w-full h-full object-cover' />
+                <img src={imgPerfil} alt='logo portfolio' className='w-full h-full object-cover' />
               </div>
             </a>
           </div>
@@ -73,7 +74,7 @@ export default function Header () {
           <div className='flex items-center'>
             <div className='btnOpenMenu'>
               <a
-                href='https://www.linkedin.com/in/michael-santucho-0a8876256'
+                href='https://www.linkedin.com/in/jonathan-molero/'
                 target='_blank'
                 onClick={handleShowMenu}
                 className='text-[13px] mx-2 flex items-center font-normal rounded-full py-[7px] px-3'
@@ -84,7 +85,7 @@ export default function Header () {
               </a>
             </div>
             <a
-              href='https://www.linkedin.com/in/michael-santucho-0a8876256'
+              href='https://www.linkedin.com/in/jonathan-molero/'
               target='_blank'
               className='text-[20px] mx-1 rounded-full p-[6px]'
               style={{ border: `1px solid ${Themes.borderNav}`, color: Themes.text, backdropFilter: 'blur(15px)' }}
@@ -93,7 +94,7 @@ export default function Header () {
               <RiLinkedinLine />
             </a>
             <a
-              href='https://www.instagram.com/michael718s'
+              href='https://www.instagram.com/jonathanmolero/'
               target='_blank'
               className='text-[20px] mx-1 rounded-full p-[6px]'
               style={{ border: `1px solid ${Themes.borderNav}`, color: Themes.text, backdropFilter: 'blur(15px)' }}

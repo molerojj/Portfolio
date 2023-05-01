@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './index.css'
 
 export default function ScreenLoading () {
-  const loadingTitleName = ('Michael').split('')
+  const loadingTitleName = ('Jonathan').split('')
   const loadingTitleDeveloper = ('Developer').split('')
   const [isLoading, setLoading] = useState(true)
 
