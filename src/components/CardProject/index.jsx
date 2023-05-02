@@ -11,7 +11,7 @@ export default function CardProject ({ data, themes }) {
       <a className='card-projects' href={deploy} target='_blank' rel='noreferrer'>
         {
         newProject
-          ? <div className='px-5 py-1 bg-sky-500 shadow-xl text-white rounded-tl-2xl font-semibold rounded-bl-sm rounded-tr-sm rounded-br-2xl absolute right-[10px] top-[-10px]'>
+          ? \<div style={{ backgroundColor: '#0a5be1' }} className='px-5 py-1 shadow-xl text-white rounded-tl-2xl font-semibold rounded-bl-sm rounded-tr-sm rounded-br-2xl absolute right-[10px] top-[-10px]'>
             <span>Nuevo</span>
             </div>
           : null

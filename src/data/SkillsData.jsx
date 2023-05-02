@@ -48,6 +48,18 @@ const skills = [
     inProcess: false
   },
   {
+    skill: 'Node js',
+    color: '#019722',
+    icon: <DiNodejsSmall />,
+    inProcess: false
+  },
+  {
+    skill: 'PostgreSQL',
+    color: '#005c83',
+    icon: <SiPostgresql />,
+    inProcess: false
+  },
+  {
     skill: 'Git',
     color: '#ff3b00',
     icon: <BsGit />,
@@ -58,18 +70,6 @@ const skills = [
     color: '#ffebeb',
     icon: <AiFillGithub />,
     inProcess: false
-  },
-  {
-    skill: 'Node js',
-    color: '#019722',
-    icon: <DiNodejsSmall />,
-    inProcess: true
-  },
-  {
-    skill: 'PostgreSQL',
-    color: '#005c83',
-    icon: <SiPostgresql />,
-    inProcess: true
   }
 ]
 

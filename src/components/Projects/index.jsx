@@ -1,7 +1,6 @@
 import React, { Suspense, useContext, useState, useRef } from 'react'
 import { projectsData } from '../../data/projectsData'
 import Context from '../../Context/Themes'
-import Button from '../ButtonHero/index'
 import BlobBlur from '../BlobBlur/BlobBlur'
 import Titles from '../Title'
 import './index.css'
@@ -57,17 +56,12 @@ export default function Projects () {
           {
     projectSelected.length > 0
       ? projectSelected.map(data => (
-        <Suspense key={data.id} fallback={<h3>Cargandooo</h3>}>
+        <Suspense key={data.id} fallback={<h3>Cargando</h3>}>
           <CardProject data={data} themes={Themes} />
         </Suspense>
       ))
-      : <h4 className='text-sm font-normal mt-2' style={{ color: Themes.text }}>No se han creado proyectos para esta sección aun. Es posible que el creador está estudiando las tecnologias para la creación de los mismos.</h4>
+      : <h4 className='text-sm font-normal mt-2' style={{ color: Themes.text }}>No se han creado proyectos para esta sección aun.</h4>
   }
-        </div>
-        <div className='w-full text-center mt-10'>
-          <a href='https://github.com/MichaellDev1' className='bg-[#0284C7] py-[10px] text-white font-medium hover:bg-[#33bbff] transition-[background-color] px-10 rounded-3xl text-[15px]'>
-            Ver mas
-          </a>
         </div>
       </div>
       <BlobBlur positionStyles={{ top: '0', left: '0', height: '600px', width: '45%', opacity: '0.6' }} />
