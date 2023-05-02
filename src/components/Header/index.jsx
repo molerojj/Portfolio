@@ -27,7 +27,7 @@ export default function Header () {
   }
   return (
     <>
-      <header className='h-24 z-10 fixed left-0 top-0 lg:px-28 px-7  w-full'>
+      <header className='h-24 z-10 fixed left-0 top-0 lg:px-28 px-7  w-full' style={{ backdropFilter: 'blur(25px)' }}>
         <div className='flex justify-between items-center w-full h-[100%]'>
           <div>
             <a
