@@ -5,7 +5,7 @@ import {
   DiReact,
   DiNodejsSmall
 } from 'react-icons/di'
-import { SiTailwindcss, SiBootstrap, SiPostgresql, SiRedux } from 'react-icons/si'
+import { SiBootstrap, SiPostgresql, SiRedux, SiSequelize } from 'react-icons/si'
 import { BsGit } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
 import { TbBrandJavascript } from 'react-icons/tb'
@@ -70,6 +70,12 @@ const skills = [
     color: '#ffebeb',
     icon: <AiFillGithub />,
     inProcess: false
+  },
+  {
+    skill: 'Sequelize',
+    color: '#ffebeb',
+    icon: <SiSequelize />,
+    inProcess: false
   }
 ]
 
@@ -79,5 +85,9 @@ export {
   DiCss3,
   DiHtml5,
   DiReact,
-  SiTailwindcss
+  SiBootstrap,
+  SiRedux,
+  SiPostgresql,
+  DiNodejsSmall,
+  SiSequelize
 }
