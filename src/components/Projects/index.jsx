@@ -9,10 +9,9 @@ const CardProject = React.lazy(() => import('../CardProject'))
 const typeProject = [
   {
     type: 'frontend'
-  }, {
-    type: 'backend'
-  }, {
-    type: 'fullStack'
+  },
+  {
+    type: 'fullstack'
   }
 ]
 

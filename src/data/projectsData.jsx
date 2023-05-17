@@ -28,7 +28,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    type: 'frontend',
+    type: 'fullstack',
     title: 'PetsAmerica',
     image: `${pets}`,
     deploy: 'https://pf-henry-one.vercel.app/',
