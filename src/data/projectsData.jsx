@@ -2,6 +2,7 @@ import { DiCss3, DiHtml5, DiJavascript, DiReact, SiBootstrap, SiRedux, SiPostgre
 import rick from '../Images/rym.png'
 import pets from '../Images/pets.png'
 import gameverse from '../Images/gameverse.png'
+import nasa from '../Images/nasa.png'
 
 export const projectsData = [
   {
@@ -35,6 +36,17 @@ export const projectsData = [
     github: 'https://github.com/erikfille/PF-Henry',
     technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />, <SiBootstrap />, <DiReact />],
     description: 'E-commerce de productos para mascotas.',
+    newProject: true
+  },
+  {
+    id: 3,
+    type: 'frontend',
+    title: 'Nasa App',
+    image: `${nasa}`,
+    deploy: 'https://nasa-app-rho.vercel.app/',
+    github: 'https://github.com/molerojj/Nasa-App',
+    technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />, <SiBootstrap />, <DiReact />],
+    description: 'Consumo de API de la nasa mostrando Foto del dia + descripción.',
     newProject: true
   }
 ]
