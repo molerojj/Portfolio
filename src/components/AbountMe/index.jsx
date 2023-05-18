@@ -6,7 +6,7 @@ export default function AbountMe () {
   return (
     <div className='min-h-[300px] relative' id='abountme'>
       <div>
-        <h2 className='py-5 sm:text-3xl text-2xl font-bold' style={{ color: Themes.text }}>Sobre mi</h2>
+        <h2 className='py-5 sm:text-3xl text-2xl font-bold' style={{ color: Themes.text }}>Sobre mí</h2>
       </div>
       <div className='flex items-center justify-center md:flex-row flex-col'>
         <div className='flex-1'>
