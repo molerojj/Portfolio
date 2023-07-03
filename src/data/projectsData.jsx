@@ -3,6 +3,8 @@ import rick from '../Images/rym.png'
 import pets from '../Images/pets.png'
 import gameverse from '../Images/gameverse.png'
 import nasa from '../Images/nasa.png'
+import button from '../Images/button-component.png'
+import weather from '../Images/weather.png'
 
 export const projectsData = [
   {
@@ -47,6 +49,28 @@ export const projectsData = [
     github: 'https://github.com/molerojj/Nasa-App',
     technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />, <SiBootstrap />, <DiReact />],
     description: 'Consumo de API de la nasa mostrando Foto del dia + descripción.',
+    newProject: false
+  },
+  {
+    id: 4,
+    type: 'frontend',
+    title: 'Button Component',
+    image: `${button}`,
+    deploy: 'https://button-component-henna.vercel.app/',
+    github: 'https://github.com/molerojj/Buttons-Component',
+    technologies: [<DiHtml5 />, <DiCss3 />, <DiReact />],
+    description: 'Button component - devChallenge.io.',
+    newProject: true
+  },
+  {
+    id: 5,
+    type: 'frontend',
+    title: 'Weather App',
+    image: `${weather}`,
+    deploy: 'https://jm-weather-app-vite-react.vercel.app/',
+    github: 'https://github.com/molerojj/weather-app-vite-react',
+    technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />, <DiReact />],
+    description: 'Aplicación sobre el clima. Consumo Api Weather',
     newProject: true
   }
 ]
