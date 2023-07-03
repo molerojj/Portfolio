@@ -7,7 +7,7 @@ export default function CardProject ({ data, themes }) {
   const { deploy, description, github, image, newProject, technologies, title } = data
 
   return (
-    <div className='rounded-md flex relative sm:w-[330px] w-[300px] flex-col justify-between m-5 card-projects'>
+    <div className='rounded-md flex relative sm:w-[330px] w-[300px] flex-col justify-between mx-2 my-5 card-projects'>
       <a className='card-projects' href={deploy} target='_blank' rel='noreferrer'>
         {
         newProject
