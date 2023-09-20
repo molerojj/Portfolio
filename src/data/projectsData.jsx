@@ -1,10 +1,15 @@
 import { DiCss3, DiHtml5, DiJavascript, DiReact, SiBootstrap, SiRedux, SiPostgresql, DiNodejsSmall, SiSequelize } from './SkillsData'
+import { BsWordpress } from 'react-icons/bs'
 import rick from '../Images/rym.png'
 import pets from '../Images/pets.png'
 import gameverse from '../Images/gameverse.png'
 import nasa from '../Images/nasa.png'
 import button from '../Images/button-component.png'
 import weather from '../Images/weather.png'
+import lcl from '../Images/lcl.png'
+import neomeisters from '../Images/neomeisters.png'
+import zipcode from '../Images/zipcode.png'
+import expresos from '../Images/expresos.png'
 
 export const projectsData = [
   {
@@ -71,6 +76,50 @@ export const projectsData = [
     github: 'https://github.com/molerojj/weather-app-vite-react',
     technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />, <DiReact />],
     description: 'Aplicación sobre el clima. Consumo Api Weather',
+    newProject: true
+  },
+  {
+    id: 6,
+    type: 'wordpress',
+    title: 'E-Commerce LCL SHIPPING',
+    image: `${lcl}`,
+    deploy: 'https://www.lclshippinginc.com/',
+    github: 'https://www.lclshippinginc.com/',
+    technologies: [<BsWordpress />],
+    description: 'Landing y Tienda Online para cliente en EEUU.',
+    newProject: false
+  },
+  {
+    id: 7,
+    type: 'wordpress',
+    title: 'Landing Page Neomeisters',
+    image: `${neomeisters}`,
+    deploy: 'https://www.neomeisters.com/',
+    github: 'https://www.neomeisters.com/',
+    technologies: [<BsWordpress />],
+    description: 'Cliente: Agencia Digital.',
+    newProject: false
+  },
+  {
+    id: 8,
+    type: 'wordpress',
+    title: 'Landing Page Zip Code Band',
+    image: `${zipcode}`,
+    deploy: 'https://zipcodeband.com/',
+    github: 'https://zipcodeband.com/',
+    technologies: [<BsWordpress />],
+    description: 'Cliente: Banda de Rock latina.',
+    newProject: false
+  },
+  {
+    id: 9,
+    type: 'wordpress',
+    title: 'Landing Page Expresos de Venezuela',
+    image: `${expresos}`,
+    deploy: 'https://dev.expresosdevenezuela.com/',
+    github: 'https://dev.expresosdevenezuela.com/',
+    technologies: [<BsWordpress />],
+    description: 'Cliente: Empresa de transporte ejecutivo.',
     newProject: true
   }
 ]

@@ -26,7 +26,7 @@ export default function Hero () {
             <span className='flex mb-2 leading-3 title items-center'>Jonathan <span className='ml-2 manoSaludando'><ManoSaludando /></span></span>
             <span>Fullstack Developer</span>
           </h1>
-          <p className='text-sm font-normal description-hero mt-4' style={{ color: Themes.description }}>Desarrollador Fullstack con formación como Ingeniero de Sistemas. He tenido experiencia trabajando en Html, CSS, Javascript, React, entre otras tecnologías del sector. Descubrí mi pasión por el Front-End y estoy en constante formación para seguir entrenando mis habilidades y aplicarlas en cada proyecto que realizo.</p>
+          <p className='text-sm font-normal description-hero mt-4' style={{ color: Themes.description }}>Desarrollador Fullstack con formación academica como Ingeniero de Sistemas. He tenido experiencia trabajando en Html, CSS, Javascript, React, entre otras tecnologías del sector. Descubrí mi pasión por el Front-End y estoy en constante formación para seguir entrenando mis habilidades y aplicarlas en cada proyecto que realizo.</p>
         </div>
         <div className='flex mt-5 sm:text-[17px] md:justify-start text-[16px] justify-center'>
           <Button style={{ background: '#0A5BE1', marginRight: '10px' }} href={CV} isDowload hover='#051f2c'>

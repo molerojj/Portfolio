@@ -6,19 +6,32 @@ import {
   DiNodejsSmall
 } from 'react-icons/di'
 import { SiBootstrap, SiPostgresql, SiRedux, SiSequelize } from 'react-icons/si'
-import { BsGit } from 'react-icons/bs'
+import { BsGit, BsWordpress } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
 import { TbBrandJavascript } from 'react-icons/tb'
+import { FiFigma } from 'react-icons/fi'
 
 const skills = [
   {
-    skill: 'Html',
+    skill: 'Wordpress',
+    color: '#ff6a00',
+    icon: <BsWordpress />,
+    inProcess: false
+  },
+  {
+    skill: 'Figma',
+    color: '#ff6a00',
+    icon: <FiFigma />,
+    inProcess: false
+  },
+  {
+    skill: 'HTML',
     color: '#ff6a00',
     icon: <DiHtml5 />,
     inProcess: false
   },
   {
-    skill: 'Css',
+    skill: 'CSS',
     color: '#0072ff',
     icon: <DiCss3 />,
     inProcess: false

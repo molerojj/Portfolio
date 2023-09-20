@@ -1,10 +1,10 @@
 import React from 'react'
-import { AiOutlineLink, AiFillGithub } from 'react-icons/ai'
+import { AiOutlineLink, AiFillGithub, AiOutlineEye } from 'react-icons/ai'
 import './index.css'
 import ButtonProjects from '../ButtonProject'
 
 export default function CardProject ({ data, themes }) {
-  const { deploy, description, github, image, newProject, technologies, title } = data
+  const { deploy, description, github, image, newProject, technologies, title, type } = data
 
   return (
     <div className='rounded-md flex relative sm:w-[330px] w-[300px] flex-col justify-between mx-2 my-5 card-projects'>
@@ -37,10 +37,18 @@ export default function CardProject ({ data, themes }) {
           </div>
         </div>
       </a>
-      <div className='grid grid-cols-2 mt-5'>
-        <ButtonProjects hreft={github} icon={<AiFillGithub />} themes={themes} title='Git Hub' />
-        <ButtonProjects hreft={deploy} icon={<AiOutlineLink />} themes={themes} title='Deploy' />
-      </div>
+      {
+        type !== 'wordpress' 
+          ?
+            <div className='grid grid-cols-2 mt-5'>
+              <ButtonProjects hreft={github} icon={<AiFillGithub />} themes={themes} title='Git Hub' />
+              <ButtonProjects hreft={deploy} icon={<AiOutlineLink />} themes={themes} title='Deploy' />
+            </div>
+          : 
+            <div className='grid grid-cols-2 mt-5'>
+              <ButtonProjects hreft={github} icon={<AiOutlineEye />} themes={themes} title='Ver Pagina' />
+            </div>
+      }
     </div>
   )
 }
