@@ -5,7 +5,7 @@ import {
   DiReact,
   DiNodejsSmall
 } from 'react-icons/di'
-import { SiBootstrap, SiPostgresql, SiRedux, SiSequelize } from 'react-icons/si'
+import { SiBootstrap, SiPostgresql, SiRedux, SiSequelize, SiAstro, SiTailwindcss } from 'react-icons/si'
 import { BsGit, BsWordpress } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
 import { TbBrandJavascript } from 'react-icons/tb'
@@ -89,6 +89,18 @@ const skills = [
     color: '#ffebeb',
     icon: <SiSequelize />,
     inProcess: false
+  },
+  {
+    skill: 'Astro',
+    color: '#ffebeb',
+    icon: <SiAstro />,
+    inProcess: true
+  },
+  {
+    skill: 'Tailwind',
+    color: '#ffebeb',
+    icon: <SiTailwindcss />,
+    inProcess: true
   }
 ]
 
