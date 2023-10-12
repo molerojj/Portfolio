@@ -17,7 +17,7 @@ export const projectsData = [
     type: 'frontend',
     title: 'Landing Page Boda Jack & Yeldy',
     image: `${wedding}`,
-    deploy: 'https://bright-biscuit-006936.netlify.app/',
+    deploy: 'https://weddingbettertogether.com/',
     github: 'https://github.com/molerojj/wedding-sister',
     technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />,],
     description: 'Invitacion para boda',
