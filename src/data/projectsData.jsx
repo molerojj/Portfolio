@@ -15,12 +15,12 @@ export const projectsData = [
   {
     id: 10,
     type: 'frontend',
-    title: 'Landing Page Boda Jack & Yeldy',
+    title: 'Invitacion Boda Jack & Yeldy',
     image: `${wedding}`,
     deploy: 'https://weddingbettertogether.com/',
     github: 'https://github.com/molerojj/wedding-sister',
     technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />,],
-    description: 'Invitacion para boda',
+    description: 'Landing page para invitacion de boda',
     newProject: true
   },
   {
@@ -81,45 +81,45 @@ export const projectsData = [
   {
     id: 6,
     type: 'wordpress',
-    title: 'E-Commerce LCL SHIPPING',
+    title: 'LCL Shipping Inc',
     image: `${lcl}`,
     deploy: 'https://www.lclshippinginc.com/',
     github: 'https://www.lclshippinginc.com/',
     technologies: [<BsWordpress />],
-    description: 'Landing y Tienda Online para cliente en EEUU.',
+    description: 'Landing Page con tienda online para Shipping Services.',
     newProject: false
   },
   {
     id: 7,
     type: 'wordpress',
-    title: 'Landing Page Neomeisters',
+    title: 'Neomeisters',
     image: `${neomeisters}`,
     deploy: 'https://www.neomeisters.com/',
     github: 'https://www.neomeisters.com/',
     technologies: [<BsWordpress />],
-    description: 'Cliente: Agencia Digital.',
+    description: 'Landing Page para agencia de productos digitales.',
     newProject: false
   },
   {
     id: 8,
     type: 'wordpress',
-    title: 'Landing Page Zip Code Band',
+    title: 'Zip Code Rock Band',
     image: `${zipcode}`,
     deploy: 'https://zipcodeband.com/',
     github: 'https://zipcodeband.com/',
     technologies: [<BsWordpress />],
-    description: 'Cliente: Banda de Rock latina.',
+    description: 'Landing Page para bande de rock en español.',
     newProject: false
   },
   {
     id: 9,
     type: 'wordpress',
-    title: 'Landing Page Expresos de Venezuela',
+    title: 'Expresos de Venezuela',
     image: `${expresos}`,
     deploy: 'https://dev.expresosdevenezuela.com/',
     github: 'https://dev.expresosdevenezuela.com/',
     technologies: [<BsWordpress />],
-    description: 'Cliente: Empresa de transporte ejecutivo.',
+    description: 'Landing page para empresa de servicios de traslados.',
     newProject: true
   }
 ]

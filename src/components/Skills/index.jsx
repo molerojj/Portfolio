@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { skills } from '../../data/SkillsData'
 import IconSkill from '../IconSkill'
-import './skills.css'
 import Titles from '../Title/index'
 import Context from '../../Context/Themes'
 

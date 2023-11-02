@@ -5,7 +5,8 @@ import Context from '../../Context/Themes'
 import ManoSaludando from '../ManoSaludando'
 import { RxFileText } from 'react-icons/rx'
 import { FaReact } from 'react-icons/fa'
-import { DiJavascript1, DiNodejsSmall } from 'react-icons/di'
+import { DiJavascript1 } from 'react-icons/di'
+import { GrWordpress } from 'react-icons/gr'
 import BlobBlur from '../BlobBlur/BlobBlur'
 import MouseIcon from '../MouseIcon'
 import CV from '../../../public/CV.pdf'
@@ -16,7 +17,7 @@ export default function Hero () {
 
   return (
     <div className='flex justify-center items-center  min-h-[500px] md:flex-row flex-col gap-10 relative mb-36 pt-[10rem]'>
-      <div className='absolute  md:bottom-[-50px] md:left-[-50px] bottom-[-100px] left-0'>
+      <div className='absolute md:bottom-[-50px] md:left-[-50px] bottom-[-100px] left-0'>
         <MouseIcon color={Themes.text} />
       </div>
       <BlobBlur positionStyles={{ top: '-230px', left: '0', height: '600px', width: '60%', opacity: '1' }} />
@@ -24,9 +25,12 @@ export default function Hero () {
         <div className='sm:text-[50px] md:text-left text-center ' style={{ color: Themes.text }}>
           <h1 className='md:items-start text-[50px] title flex flex-col items-center leading-none font-bold relative'>
             <span className='flex mb-2 leading-3 title items-center'>Jonathan <span className='ml-2 manoSaludando'><ManoSaludando /></span></span>
-            <span>Fullstack Developer</span>
+            <span className='text-4xl'>Web Developer | UI Designer</span>
           </h1>
-          <p className='text-sm font-normal description-hero mt-4' style={{ color: Themes.description }}>Desarrollador Fullstack con formación academica como Ingeniero de Sistemas. He tenido experiencia trabajando en Html, CSS, Javascript, React, entre otras tecnologías del sector. Descubrí mi pasión por el Front-End y estoy en constante formación para seguir entrenando mis habilidades y aplicarlas en cada proyecto que realizo.</p>
+          <p className='text-sm font-normal description-hero mt-4' style={{ color: Themes.description }}>Desarrollador web con formación academica como Ingeniero de Sistemas. Tengo experiencia trabajando en Html, CSS, Javascript, React, WordPress entre otras tecnologías del sector. Descubrí mi pasión por el Front-End y estoy en constante formación para seguir entrenando mis habilidades y aplicarlas en cada proyecto que realizo.
+          </p>
+          <p className='text-sm font-normal description-hero mt-4' style={{ color: Themes.description }}>He creado junto a 2 amigos <a target='_blank' href='https://neomeisters.com' rel='noreferrer'><b>Neomeisters</b></a>, una agencia de productos digitales.
+          </p>
         </div>
         <div className='flex mt-5 sm:text-[17px] md:justify-start text-[16px] justify-center'>
           <Button style={{ background: '#0A5BE1', marginRight: '10px' }} href={CV} isDowload hover='#051f2c'>
@@ -57,7 +61,7 @@ export default function Hero () {
             </div>
 
             <div className='w-[50px] flex justify-center items-center text-3xl h-[50px] rounded-full absolute -left-[25px]' style={{ background: Themes.text, color: Themes.iconHero }}>
-              <DiNodejsSmall />
+              <GrWordpress />
             </div>
 
           </div>
