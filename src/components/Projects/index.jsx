@@ -8,6 +8,9 @@ const CardProject = React.lazy(() => import('../CardProject'))
 
 const typeProject = [
   {
+    type: 'UI/UX'
+  },
+  {
     type: 'wordpress'
   },
   {
@@ -20,7 +23,7 @@ const typeProject = [
 
 export default function Projects () {
   const { Themes } = useContext(Context)
-  const [typeSelected, setTypeSelected] = useState('wordpress')
+  const [typeSelected, setTypeSelected] = useState('uiux')
   const refElementProjectSelected = useRef()
 
   const handleChangeSelected = (e, type) => {

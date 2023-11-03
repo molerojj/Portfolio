@@ -1,5 +1,6 @@
 import { DiCss3, DiHtml5, DiJavascript, DiReact, SiBootstrap, SiRedux, SiPostgresql, DiNodejsSmall, SiSequelize } from './SkillsData'
 import { BsWordpress } from 'react-icons/bs'
+import { FiFigma } from 'react-icons/fi'
 import rick from '../Images/rym.png'
 import pets from '../Images/pets.png'
 import gameverse from '../Images/gameverse.png'
@@ -10,10 +11,14 @@ import neomeisters from '../Images/neomeisters.png'
 import zipcode from '../Images/zipcode.png'
 import expresos from '../Images/expresos.png'
 import wedding from '../Images/boda.jpg'
+import petsamerica from '../Images/petsamerica.jpg'
+import ilumina from '../Images/ilumina.jpg'
+import appwallet from '../Images/appwallet.jpg'
+import zipcodeband from '../Images/zipcodeband.jpg'
 
 export const projectsData = [
   {
-    id: 10,
+    id: 0,
     type: 'frontend',
     title: 'Invitacion Boda Jack & Yeldy',
     image: `${wedding}`,
@@ -24,7 +29,7 @@ export const projectsData = [
     newProject: true
   },
   {
-    id: 0,
+    id: 1,
     type: 'frontend',
     title: 'Rick & Morty APP',
     image: `${rick}`,
@@ -35,7 +40,7 @@ export const projectsData = [
     newProject: false
   },
   {
-    id: 1,
+    id: 2,
     type: 'frontend',
     title: 'Gameverse',
     image: `${gameverse}`,
@@ -46,7 +51,7 @@ export const projectsData = [
     newProject: false
   },
   {
-    id: 2,
+    id: 3,
     type: 'fullstack',
     title: 'PetsAmerica',
     image: `${pets}`,
@@ -57,7 +62,7 @@ export const projectsData = [
     newProject: true
   },
   {
-    id: 3,
+    id: 4,
     type: 'frontend',
     title: 'Nasa App',
     image: `${nasa}`,
@@ -121,5 +126,49 @@ export const projectsData = [
     technologies: [<BsWordpress />],
     description: 'Landing page para empresa de servicios de traslados.',
     newProject: true
+  },
+  {
+    id: 10,
+    type: 'uiux',
+    title: 'Pets America',
+    image: `${petsamerica}`,
+    deploy: 'https://shorturl.at/auTU7',
+    github: 'https://shorturl.at/auTU7',
+    technologies: [<FiFigma />],
+    description: 'Diseño de e-commerce para tienda online de mascotas.',
+    newProject: false
+  },
+  {
+    id: 11,
+    type: 'uiux',
+    title: 'Ilumina Candles',
+    image: `${ilumina}`,
+    deploy: 'https://shorturl.at/czABK',
+    github: 'https://shorturl.at/czABK',
+    technologies: [<FiFigma />],
+    description: 'Diseño de landing page para emprendimiento de velas aromáticas.',
+    newProject: false
+  },
+  {
+    id: 12,
+    type: 'uiux',
+    title: 'Zip Code Rock Band',
+    image: `${zipcodeband}`,
+    deploy: 'https://shorturl.at/rMNOZ',
+    github: 'https://shorturl.at/rMNOZ',
+    technologies: [<FiFigma />],
+    description: 'Diseño de landing page para banda de rock en español.',
+    newProject: false
+  },
+  {
+    id: 13,
+    type: 'uiux',
+    title: 'Wallet App',
+    image: `${appwallet}`,
+    deploy: 'https://shorturl.at/pV057',
+    github: 'https://shorturl.at/pV057',
+    technologies: [<FiFigma />],
+    description: 'Diseño prototipo de billetera electrónica.',
+    newProject: false
   }
 ]
