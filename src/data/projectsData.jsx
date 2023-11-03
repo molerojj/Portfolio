@@ -129,7 +129,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    type: 'uiux',
+    type: 'UI/UX',
     title: 'Pets America',
     image: `${petsamerica}`,
     deploy: 'https://shorturl.at/auTU7',
@@ -140,7 +140,7 @@ export const projectsData = [
   },
   {
     id: 11,
-    type: 'uiux',
+    type: 'UI/UX',
     title: 'Ilumina Candles',
     image: `${ilumina}`,
     deploy: 'https://shorturl.at/czABK',
@@ -151,7 +151,7 @@ export const projectsData = [
   },
   {
     id: 12,
-    type: 'uiux',
+    type: 'UI/UX',
     title: 'Zip Code Rock Band',
     image: `${zipcodeband}`,
     deploy: 'https://shorturl.at/rMNOZ',
@@ -162,7 +162,7 @@ export const projectsData = [
   },
   {
     id: 13,
-    type: 'uiux',
+    type: 'UI/UX',
     title: 'Wallet App',
     image: `${appwallet}`,
     deploy: 'https://shorturl.at/pV057',
