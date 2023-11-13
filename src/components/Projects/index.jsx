@@ -23,7 +23,7 @@ const typeProject = [
 
 export default function Projects () {
   const { Themes } = useContext(Context)
-  const [typeSelected, setTypeSelected] = useState('uiux')
+  const [typeSelected, setTypeSelected] = useState('UI/UX')
   const refElementProjectSelected = useRef()
 
   const handleChangeSelected = (e, type) => {

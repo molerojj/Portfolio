@@ -38,7 +38,7 @@ export default function CardProject ({ data, themes }) {
         </div>
       </a>
       {
-        type !== 'wordpress' && type !== 'uiux'
+        type !== 'wordpress' && type !== 'UI/UX'
           ?
             <div className='grid grid-cols-2 mt-5'>
               <ButtonProjects hreft={github} icon={<AiFillGithub />} themes={themes} title='Git Hub' />
